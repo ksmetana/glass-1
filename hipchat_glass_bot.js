@@ -1,11 +1,16 @@
 var wobot = require('wobot');
 
-var room_jid = "28742_glenn_-_experimental@conf.hipchat.com"
-var room_nick = "Glass Bot"
+var room_jid = ""
+var room_nick = ""
 
 var bot = new wobot.Bot({
+<<<<<<< HEAD
     jid: "28742_383441@chat.hipchat.com",
     password: "wabisabi"
+=======
+    jid: "",
+    password: ""
+>>>>>>> d6c4025cd715c35240d35a0593000f08ecf4c30f
     });
     
 bot.connect();
