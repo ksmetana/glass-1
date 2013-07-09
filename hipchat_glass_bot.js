@@ -5,7 +5,7 @@ var room_nick = "Glass Bot"
 
 var bot = new wobot.Bot({
     jid: "28742_383441@chat.hipchat.com",
-    password: "fen65hui"
+    password: "wabisabi"
     });
     
 bot.connect();
